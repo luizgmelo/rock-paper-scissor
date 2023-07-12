@@ -2,8 +2,8 @@
 import random
 
 while True:    
-    alternatives = ["rock", "paper", "scissor"]
-    player = str(input("Rock, Paper or Scissor: ")).lower()
+    alternatives = ["rock", "paper", "scissors"]
+    player = str(input("Rock, Paper or Scissors: ")).lower()
     computer = random.choice(alternatives)
     
     if player not in alternatives:
@@ -14,14 +14,14 @@ while True:
     
     if (player == computer):
         print("Draw!")
-    # Rock win Scissors
-    elif (player == "rock" and computer == "scissor"):
+    # Rock win scissorss
+    elif (player == "rock" and computer == "scissors"):
         print("Win!")
     # Paper win Rock
     elif (player == "paper" and computer == "rock"):
         print("Win!")
-    # Scissors win Paper
-    elif (player == "scissor" and computer == "paper"):
+    # scissorss win Paper
+    elif (player == "scissors" and computer == "paper"):
         print("Win!")
     else:
         print("Lose!")
