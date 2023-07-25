@@ -74,7 +74,9 @@ while True:
         continue
     
     print(f"You are {player} and computer is {computer}") 
-    
+    print(showArt(player), end="")
+    print(showArt(computer, True))
+
     if (player == computer):
         print("Draw!")
     # Rock win scissorss
