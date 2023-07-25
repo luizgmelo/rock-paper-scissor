@@ -78,18 +78,19 @@ while True:
     print(showArt(computer, True))
 
     if (player == computer):
-        print("Draw!")
+        print("Draw!".center(20))
     # Rock win scissorss
     elif (player == "rock" and computer == "scissors"):
-        print("Win!")
+        print("Win!".center(20))
     # Paper win Rock
     elif (player == "paper" and computer == "rock"):
-        print("Win!")
+        print("Win!".center(20))
     # scissorss win Paper
     elif (player == "scissors" and computer == "paper"):
-        print("Win!")
+        print("Win!".center(20))
     else:
-        print("Lose!")
+        print("Lose!".center(20))
     
     break
     # Equal is draw
+
